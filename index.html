@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p13</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        h1{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+        }
+        h2{
+            position: fixed;
+            top: 40%;
+            left: 45%;
+            transform: rotate(90deg);
+            border-bottom: solid black 1em;
+            }
+            ol{
+                position: fixed;
+                left: 60%;
+                top: 20%;
+                 transform: rotate(-70deg);
+            }
+            img{
+              width: 100%;  
+            }
+            .año{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                }
+                .escuela{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                }
+                .taula{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 10px;
+                    height: 80px;
+                    animation-name: movtaula;
+                    animation-duration: 10s;
+                    z-index: -5;
+                    animation-iteration-count: infinite;
+
+                width:120px;
+                height: 100px;
+            }
+            h4{
+                position: fixed;
+                font-size: 20em;}
+
+                #primero {top: -0.2em; left: 10%;}
+                #segundo {top: -0.2em; left: 90%;}
+                #tercero {top: 65%; left:10%;}
+                #cuarto {top: 65%; left: 90%;}
+            @keyframes movtaula {
+              0% {top: 0; left: 0; }
+              20%{top: 50%; left: 15%;}
+             40% {top: 50%; left: 80%;}
+             60%{top: 0%; left: 60%;}
+             80%{top: 50%; left: 50%;}
+             100%{top: 0%; left: 0%;}
+            }
+    </style>
+</head>
+<body>
+    <h1>titulo asignatura</h1>
+    <h2>nombre y apellidos</h2>
+    <ol>
+        <li>a href="">llocweb></a></li>
+        <li>a href="">imatges,video,audio></a></li>
+         <li>a href="">freecodecamp></a></li>
+    </ol>
+    <main>
+
+<footer>
+    <h4 id="primero">2</h4>
+    <h4 id="segundo">0</h4>
+    <h4 id="tercero">2</h4>
+    <h4 id="cuarto">3</h4>
+    <h3 class="año">22-23</h3>
+    <h3 class="escuela">EASD</h3>
+
+</footer>
+<div class="taula">
+    <img src="img/R.png" alt="fresa">
+</div>
+    </body>
+    
+</body>
+</html>
